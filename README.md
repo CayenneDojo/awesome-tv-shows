@@ -1,3 +1,3 @@
 ## How to start a web server:
 
-  python -m SimpleHTTPServer 8000
+    python -m SimpleHTTPServer 8000

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -24,19 +28,11 @@ button {
   border: 1px solid #BFBFBF;
   padding: 5px 10px;
   background: linear-gradient(180deg, #FFF, #CCC);
-  transition: all 1s;
+  /* transition: all 1s; */
 }
 
 .site-nav a:hover {
   background: linear-gradient(180deg, #FFF, #aaa);
-}
-
-.site-nav a:active {
-
-}
-
-.site-nav a:visited {
-
 }
 
 .site-header h1 {
@@ -48,6 +44,46 @@ button {
   font-size: 1.2rem;
 }
 
+/**
+ * Main section
+ */
+
+.shows-list {
+  float: left;
+  outline: 3px solid green;
+}
+
+.show-card {
+  padding: 0 20px 20px 210px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 1px solid transparent;
+  outline: 2px solid red;
+  width: 50%;
+  height: 400px;
+}
+
+.show-card aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 185px;
+}
+
+.show-card aside figure {
+  margin: 0;
+}
+
+.show-card .user-tools button {
+  display: block;
+  font-size: 12px;
+}
+
+/**
+ * Footer
+ */
+
 .site-footer {
   font-weight: bold;
   border-radius: 10px;
@@ -55,4 +91,5 @@ button {
   background-color: #eee;
   border: 1px solid #ccc;
   margin: 20px 0;
+  clear: both;
 }
