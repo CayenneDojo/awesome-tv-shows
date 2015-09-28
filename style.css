@@ -83,6 +83,10 @@ a.button:hover {
   transition: all 0.5s;
 }
 
+.show-title {
+  color: green;
+}
+
 /**
  * Several CSS properties can be easily transitioned using pseudo-classes
  * (:hover, :active, :focus).
