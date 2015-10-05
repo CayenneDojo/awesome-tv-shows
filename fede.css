@@ -1,0 +1,17 @@
+.site-header {
+  background-color: #ccc;
+}
+
+
+.site-main {
+  width: 100%;
+}
+
+.show-detail > aside {
+  float: left;
+  width: 250px;
+}
+
+.show-info {
+  margin-left: 260px;
+}
