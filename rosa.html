@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>rosa</title>
-</head>
-
-<body>
-  <article class="shows-card">
-    <h2 class="show title">Grey's Anatomy</h2>
-    <div class="show-meta">
-      <span class="show-vote-average">6.9</span>
-      <span class="show-relase-date">2005-03-27</span>
-      <ul class="show-genres">
-        <li>Drama</li>
-      </ul>
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome TV Shows</title>
+    <meta name="description" content="Your first resource for spotting the best TV shows on the net!">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vincenzo.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1>Awesome TV Shows</h1>
+        <h2>Your first resource for spotting the best TV shows on the net!</h2>
+        <nav class="site-nav">
+          <a class="button" href="#">Most popular</a>
+          <a class="button" href="#">Top rated</a>
+          <a class="button" href="#">Airing today</a>
+        </nav>
+      </header>
+      <main class="site-main">
+        <section class="show-detail">
+          <aside>
+            <figure class="show-poster">
+              <img src="https://image.tmdb.org/t/p/w185/tnkYVbGDmpIcKWo7Synr4yqEsZM.jpg" alt="" height="278">
+              <figcaption>
+                <span>The official Grey's Anatomy poster</span>
+              </figcaption>
+            </figure>
+          </aside>
+          <div class="show-info">
+            <h2 class="show-title">Grey's Anatomy</h2>
+            <p>
+              Meredith Grey è una giovane ragazza di Boston che, dopo la laurea in medicina, riesce ad entrare nel gruppo di tirocinanti di chirurgia del Seattle Grace Hospital. Si trasferisce così a Seattle, nella vecchia casa appartenuta alla madre. Qui si ritrova
+              a condividere questa nuova esperienza insieme ad un gruppo di giovani coetanei, tutti alle prese con i più svariati problemi.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        2015 Cayenne Dojo, all rights reserved
+      </footer>
     </div>
-    <p class="show-overview">
-      Meredith Grey è una giovane ragazza di Boston che, dopo la laurea in medicina, riesce ad entrare nel gruppo di tirocinanti di chirurgia del Seattle Grace Hospital. Si trasferisce così a Seattle, nella vecchia casa appartenuta alla madre. Qui si ritrova
-      a condividere questa nuova esperienza insieme ad un gruppo di giovani coetanei, tutti alle prese con i più svariati problemi.
-
-    </p>
-    <aside>
-      <figure class="show-poster">
-        <img src="https://image.tmdb.org/t/p/w185/tnkYVbGDmpIcKWo7Synr4yqEsZM.jpg" alt="" />
-        <figcaption>
-          <span>The official Grey's Anatomy poster</span>
-        </figcaption>
-      </figure>
-      <div class="user-tools">
-        <button class="add-to-favorites">Add to Favorites</button>
-        <button class="add-to-watchlist">Add to Watchlist</button>
-
-      </div>
-
-    </aside>
-
-    </div>
-  </article>
-</body>
-
+  </body>
 </html>
