@@ -1,0 +1,13 @@
+.site-header {
+  background-color: #dae4ff
+}
+.site-main {
+  width: 100%
+}
+.show-detail > aside {
+  float: left;
+  width: 300px;
+}
+.show-info {
+  margin-left: 260px;
+}
