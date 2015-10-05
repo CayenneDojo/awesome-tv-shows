@@ -1,0 +1,19 @@
+.site-header {
+  background-color: rgb(179, 204, 218)
+}
+.show-title{
+  /*color:rgb(7, 48, 180)*/
+}
+.site-main {
+  width: 100%
+}
+.show-detail > aside {
+  float: left;
+  width: 278px;
+  border: solid 1px red
+}
+
+.show-info{
+margin-left: 0px;
+
+}
