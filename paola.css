@@ -1,13 +1,50 @@
 .site-header {
-  background-color: #dae4ff
+  background-color: #ffdafa
 }
 .site-main {
-  width: 100%
+  padding: 0 10px;
+}
+.show-detail {
+  overflow: auto;
+  background-color: #eaeaea
 }
 .show-detail > aside {
   float: left;
-  width: 300px;
+  width: 270px;
 }
-.show-info {
-  margin-left: 260px;
+.show-detail .show-info {
+  float:left;
+  width: 670px;
+  padding: 0 20px;
+}
+
+.show-title {
+  color: rgb(124, 68, 108);
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.show-stars .icon-stella {
+  color: #ccc;
+}
+
+.show-stars .icon-stella.active {
+  color: rgb(255, 224, 19)
+}
+
+.show-stars .icon-stella:hover {
+  color: rgb(255, 224, 19)
+}
+.show-toolbar {
+  padding: 5px 0;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0px 1px #fff;
+}
+
+.show-toolbar li {
+  list-style-type:none;
+  display:inline;
+  padding: 0 7px;
 }
