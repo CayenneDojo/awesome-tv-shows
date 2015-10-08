@@ -36,3 +36,7 @@ a.button{
     content: "\e800";
     color:rgb(255, 184, 0);
 }
+
+.show-toolbar a {
+  padding-left: 25px;
+}
