@@ -1,0 +1,38 @@
+.site-header{
+  background-color: #eeeeee;
+}
+.site-main{
+  width: 100%;
+}
+
+a.button{
+  margin: 2px;
+}
+
+.show-images {
+  width: 250px;
+  float:left;
+}
+
+
+.show-info {
+  margin-left: 260px;
+}
+
+.show-info h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.show-info p{
+  font-size: 13px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+
+.icon-futbol-o:before {
+    content: "\e800";
+    color:rgb(255, 184, 0);
+}
