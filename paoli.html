@@ -2,50 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sex and the city</title>
-    <meta name="description" content="A list of awesome TV shows">
+    <title>Awesome TV Shows</title>
+    <meta name="description" content="Your first resource for spotting the best TV shows on the net!">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="paoli.css">
   </head>
   <body>
-    <header>
-      <h1>Sex and the city</h1>
-      <nav>
-        <a href="#">Most popular</a>
-        <a href="#">Top rated</a>
-        <a href="#">Airing today</a>
-      </nav>
-    </header>
-    <main>
-      <section class="shows-list">
-        <article class="show-card">
-          <h2 class="show-title">Sex And The City</h2>
-          <div class="show-meta">
-            <span class="show-vote-average">10</span>
-            <span class="show-release-date">settembre 2015</span>
-            <ul class="show-genres">
-              <li>Fashion</li>
-              <li>New York</li>
-            </ul>
-          </div>
-          <p class="show-overview">
-            Four beautiful female New Yorkers gossip about their sex-lives (or lack thereof) and find new ways to deal with being a woman in the 90's.
-          </p>
+    <div class="container">
+      <header class="site-header">
+        <h1>Awesome TV Shows</h1>
+        <h2>Your first resource for spotting the best TV shows on the net!</h2>
+        <nav class="site-nav">
+          <a class="button" href="#">Most popular</a>
+          <a class="button" href="#">Top rated</a>
+          <a class="button" href="#">Airing today</a>
+        </nav>
+      </header>
+      <main class="site-main">
+        <section class="show-detail">
           <aside>
             <figure class="show-poster">
-              <img src="https://image.tmdb.org/t/p/w185/z6IQ6nr2Cz7FUPmQtbVkgHeJ4vK.jpg" alt="" />
+              <img src="http://image.tmdb.org/t/p/w185/jIhL6mlT7AblhbHJgEoiBIOUVl1.jpg" alt="" height="278">
               <figcaption>
-                <span>Carrie Bradshaw</span>
+                <span>The official Game Of Thrones poster</span>
               </figcaption>
             </figure>
-            <div class="user-tools">
-              <button class="add-to-favorites">Add to Favorites</button>
-              <button class="add-to-watchlist">Add to Watchlist</button>
-            </div>
           </aside>
-        </article>
-      </section>
-    </main>
-    <footer>
-      2015 Cayenne
-    </footer>
+          <div class="show-info">
+            <h2 class="show-title">Game of Thrones</h2>
+            <div class="show-stars">
+              <span class="icon-stelletta active"></span>
+              <span class="icon-stelletta active"></span>
+              <span class="icon-stelletta active"></span>
+              <span class="icon-stelletta"></span>
+              <span class="icon-stelletta"></span>
+            </div>
+            <ul class="show-toolbar">
+              <li>Favorite</li>
+              <li>Watchlist</li>
+              <li>Videos</li>
+              <li>Changes</li>
+              <li>Share</li>
+              <li>Report</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        2015 Cayenne Dojo, all rights reserved
+      </footer>
+    </div>
   </body>
 </html>
