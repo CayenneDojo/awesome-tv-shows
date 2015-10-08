@@ -24,6 +24,7 @@
   font-weight: normal;
 }
 
+
 .show-stars .icon-stella {
   color: #ccc;
 }
@@ -36,7 +37,7 @@
   color: rgb(255, 224, 19)
 }
 .show-toolbar {
-  padding: 5px 0;
+  padding: 10px 0;
   margin: 5px 0;
   border: 1px solid #ccc;
   border-radius: 7px;
@@ -47,4 +48,44 @@
   list-style-type:none;
   display:inline;
   padding: 0 7px;
+}
+
+.show-toolbar a {
+  padding-left: 25px;
+  text-decoration: none;
+  color: rgb(154, 53, 124);
+  line-height: 16px;
+  display: inline-block;
+  background-position-y: -16px;
+  background-repeat: no-repeat;
+}
+
+.show-toolbar a:hover {
+  background-position-y: 0;
+}
+
+.show-toolbar a.favorite {
+  background-image: url('images/heart-icon-sprite.png');
+}
+
+.show-toolbar a.watchlist {
+  background-image: url('images/popcorn-icon-sprite.png');
+}
+.show-toolbar a.videos {
+  background-image: url('images/video-play-icon-sprite.png');
+}
+.show-toolbar a.changes {
+  background-image: url('images/change-icon-sprite.png');
+}
+.show-toolbar a.share {
+  background-image: url('images/share-icon-sprite.png');
+}
+.show-toolbar a.report {
+  background-image: url('images/important-sprite.png');
+}
+
+.show-toolbar a.videos::after {
+  content: ' | ';
+  color: #ccc;
+  margin: 0 5px;
 }
