@@ -1,3 +1,7 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .site-header {
   background-color: #eee;
 }
@@ -23,22 +27,33 @@
   padding: 0 20px;
 }
 
+.show-info p {
+  font-size: 13px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .show-title {
   color: #333;
   font-size: 30px;
   font-weight: normal;
 }
 
-.show-stars .icon-stelletta.active {
+.show-stars .icon-futbol-o.active {
   color: rgb(255, 176, 0);
 }
 
-.show-stars .icon-stelletta {
-  color: #ccc;
+.show-stars .icon-futbol-o {
+  color: #989898;
 }
 
-.show-stars .icon-stelletta:hover {
-  color: rgb(255, 176, 0);
+.show-stars .icon-futbol-o:hover {
+    color:rgb(255, 184, 0);
+}
+
+.show-stars .icon-futbol-o:before {
+    content: "\e800";
+
 }
 
 .show-toolbar {
