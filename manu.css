@@ -1,0 +1,109 @@
+.site-header {
+  background-color: rgb(179, 204, 218)
+}
+.show-title{
+  color:#333;
+  font-size: 30px;
+  font-weight: normal;
+}
+.site-main {
+  padding: 0 10px;
+}
+.show-detail {
+  overflow: auto;
+  background-color: #eaeaea;
+}
+.show-detail > aside {
+  float: left;
+  width: 270px;
+  /*border: solid 1px;*/
+}
+.show-info{
+  margin-left: 0px;
+}
+.show-detail .show-info{
+  float: left;
+  width: 670px;
+  padding: 0 20px;
+  /*outline: solid 1px blue;*/
+}
+.show-stars .icon-star{
+  color:#ccc;
+}
+.show-stars .icon-star.active{
+  color: rgb(245, 200, 43)
+}
+.show-stars .icon-star:hover{
+  color: rgb(245, 200, 43)
+}
+.show-toolbar {
+  padding: 10px 0;
+  margin: 5px 0;
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px #fff;
+}
+.show-toolbar li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 7px;
+}
+.show-toolbar a {
+  padding-left: 25px;
+}
+.show-toolbar a {
+  color: rgb(85, 83, 84);
+  padding-left:20px;
+  text-decoration: none;
+  line-height: 16px;
+  display:inline-block;
+  background-repeat: no-repeat;
+  background-position-y: -16px;
+}
+.show-toolbar a.favorite
+ {
+  background-image: url('images/heart-icon-sprite.png');
+ }
+ .show-toolbar a.watchlist{
+   background-image: url('https://assets.tmdb.org/images/popcorn-icon-sprite.png');
+ }
+ .show-toolbar a.video{
+   background-image: url('https://assets.tmdb.org/images/video-play-icon-sprite.png');
+ }
+ .show-toolbar a.share{
+   background-image: url('https://assets.tmdb.org/images/share-icon-sprite.png');
+   background-position-y: -18px;
+ }
+ .show-toolbar a.changes{
+   background-image: url('https://assets.tmdb.org/images/change-icon-sprite.png');
+   background-position-y: -17px;
+ }
+ .show-toolbar a.report{
+   background-image: url('https://assets.tmdb.org/images/important-sprite.png');
+ }
+.show-toolbar a.video::after {
+  content: ' | ';
+  color:#df0000;
+  margin: 0 10px;
+}
+.show-toolbar a:hover {
+  background-position-y:0;
+}
+.show-info p {
+  font-size: 0.85rem;
+}
+.show-info h3{
+  font-size: 1rem;
+}
+.show-info dl{
+
+}
+.show-info dt{
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.show-info dd{
+  margin-left: 180px;
+}
