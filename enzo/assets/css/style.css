@@ -56,8 +56,8 @@
 }
 
 .show-toolbar {
-  padding: 5px;
-  margin: 5px 0;
+  padding: 10px;
+  margin: 25px 0;
   border: 1px solid #ccc;
   box-shadow: 0 1px #FFF;
   border-radius: 7px;
@@ -70,5 +70,41 @@
 }
 
 .show-toolbar a {
+  color: rgb(50, 56, 70);
+  padding-left: 20px;
+  text-decoration: none;
+  line-height: 16px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position-y: -16px;
+}
 
+.show-toolbar a.favorite {
+  background-image: url('https://assets.tmdb.org/images/heart-icon-sprite.png');
+}
+
+.show-toolbar a.watchlist {
+  background-image: url('https://assets.tmdb.org/images/popcorn-icon-sprite.png');
+}
+
+.show-toolbar a.video {
+  background-image: url('https://assets.tmdb.org/images/video-play-icon-sprite.png');
+}
+
+.show-toolbar a.changes {
+  background-position-y: -17px;
+  background-image: url('https://assets.tmdb.org/images/change-icon-sprite.png');
+}
+
+.show-toolbar a.share {
+  background-position-y: -18px;
+  background-image: url('https://assets.tmdb.org/images/share-icon-sprite.png');
+}
+
+.show-toolbar a.report {
+  background-image: url('https://assets.tmdb.org/images/important-sprite.png');
+}
+
+.show-toolbar a:hover {
+  background-position-y: 0;
 }
