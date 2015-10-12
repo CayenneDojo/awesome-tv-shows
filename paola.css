@@ -6,7 +6,8 @@
 }
 .show-detail {
   overflow: auto;
-  background-color: #eaeaea
+  background-color: #eaeaea;
+  font-size: 0,85rem;
 }
 .show-detail > aside {
   float: left;
@@ -23,7 +24,6 @@
   font-size: 30px;
   font-weight: normal;
 }
-
 
 .show-stars .icon-stella {
   color: #ccc;
@@ -60,9 +60,6 @@
   background-repeat: no-repeat;
 }
 
-.show-toolbar a:hover {
-  background-position-y: 0;
-}
 
 .show-toolbar a.favorite {
   background-image: url('images/heart-icon-sprite.png');
@@ -76,9 +73,13 @@
 }
 .show-toolbar a.changes {
   background-image: url('images/change-icon-sprite.png');
+  background-position-y: -17px;
+
 }
 .show-toolbar a.share {
   background-image: url('images/share-icon-sprite.png');
+  background-position-y: -18px;
+
 }
 .show-toolbar a.report {
   background-image: url('images/important-sprite.png');
@@ -88,4 +89,27 @@
   content: ' | ';
   color: #ccc;
   margin: 0 5px;
+}
+
+.show-toolbar a:hover {
+  background-position-y: 0;
+}
+
+
+.show-info h3 {
+  font-size: 1rem;
+}
+
+.show-info dl{
+
+}
+
+.show-info dt{
+  float:left;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.show-info dd {
+  margin-left: 180px;
 }
