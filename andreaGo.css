@@ -92,3 +92,21 @@
   background-position-y:0;
 
 }
+
+.show-info p{
+  font-size: 0.85rem
+}
+.show-info h3{
+  font-size: 1rem
+}
+
+.show-info dt{
+  float:left;
+  width:160px;
+  overflow: hidden;
+  text-overview:ellipsis;
+}
+
+.show-info dd{
+  margin-left: 160px;
+}
