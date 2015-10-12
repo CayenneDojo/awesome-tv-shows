@@ -7,7 +7,6 @@
 .show-detail {
   overflow: auto;
   background-color: #eaeaea;
-  font-size: 0,85rem;
 }
 .show-detail > aside {
   float: left;
@@ -17,6 +16,9 @@
   float:left;
   width: 670px;
   padding: 0 20px;
+}
+.show-info {
+  font-size: 0.85rem;  
 }
 
 .show-title {
