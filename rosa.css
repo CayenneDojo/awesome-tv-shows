@@ -79,9 +79,21 @@
 .show-star .icon-star:hover {
   color: rgb(244, 234, 17);
 }
+.show-info h3 {
+  font-size: 1rem;
+}
 
-.show-info dt{
-  float:left;
-  width: 160 px;
+.show-info dl {
+
+}
+
+.show-info dt {
+  float: left;
+  width: 160px;
   overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.show-info dd {
+  margin-left: 180px;
 }
