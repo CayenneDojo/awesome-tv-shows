@@ -1,0 +1,104 @@
+.site-header {
+  background-color :white;
+}
+.show-title {color: rgb(46, 60, 57);
+  font-size: 30px;
+  font-weight: bold;
+}
+.site-main {
+  padding: 0 10px;
+}
+.show-detail {
+  overflow: auto;
+  background-color: #eaeaea;
+}
+.show-detail > aside {
+  float: left;
+  width: 270px;
+  border: solid 1px white;
+}
+.show-toolbar {
+  padding: 5px 0;
+  margin: 5px 0;
+  border: solid 1px #ccc;
+  box-shadow: 0 1px #FFF;
+  border-radius: 7px;
+}
+.show-toolbar li {
+  display :inline;
+  list-style-type: none;
+  padding: 0 7px;
+}
+
+.show-toolbar a {
+padding-left: 25px;
+text-decoration: none;
+
+}
+
+.show-toolbar a.favorite {
+line-height: 16px;
+display: inline-block;
+
+}
+.show-toolbar a:hover {
+    background-position-x: 0px;
+    background-position-y: -15px;
+}
+
+.show-toolbar a.video::after{
+content: '|';
+margin: 0px 10px;
+color: #ccc;
+
+}
+.show-toolbar a.favorite { background-image: url("https://assets.tmdb.org/images/heart-icon-sprite.png");
+}
+
+.show-toolbar a.watchlist{ background-image: url("https://assets.tmdb.org/images/popcorn-icon-sprite.png");
+}
+.show-toolbar a.video{ background-image: url("https://assets.tmdb.org/images/video-play-icon-sprite.png");
+}
+
+.show-toolbar a.changes { background-image: url("https://assets.tmdb.org/images/change-icon-sprite.png");
+
+}
+.show-toolbar a.share{ background-image: url("https://assets.tmdb.org/images/share-icon-sprite.png");
+}
+.show-toolbar a.report{ background-image: url("https://assets.tmdb.org/images/heart-icon-sprite.png");
+}
+.show-toolbar a.changes{ background-image: url("https://assets.tmdb.org/images/heart-icon-sprite.png");
+}
+
+.show-detail .show-info {
+  float: left;
+  width: 670px;
+  padding: 0px 20px;
+}
+.show-star .icon-star {
+  color: #ccc;
+}
+.show-star .icon-star.active {
+  color: rgb(244, 234, 17);
+}
+.show-star .icon-star:hover {
+  color: rgb(244, 234, 17);
+}
+.show-info p{
+font-size: 0.85rem;
+
+}
+.show-info h3{
+  font-size: 1rem;
+}
+.show-info dl{}
+
+.show-info dt {
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.show-info dd {
+  margin-left: 180px;
+}
