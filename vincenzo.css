@@ -9,6 +9,7 @@
 .show-detail {
   overflow: auto;
   background-color: #eaeaea;
+  font-size: 0.85rem;
 }
 
 .show-detail > aside {
@@ -92,4 +93,23 @@
 
 .show-toolbar a:hover {
   background-position-y: 0;
+}
+
+.show-info h3 {
+  font-size: 1rem;
+}
+
+.show-info dl {
+
+}
+
+.show-info dt {
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.show-info dd {
+  margin-left: 180px;
 }
