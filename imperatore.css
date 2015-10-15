@@ -1,0 +1,55 @@
+.site-header {
+  background-color: #eee;
+}
+
+.site-main {
+  padding: 0 10px;
+}
+
+.show-detail {
+  overflow: auto;
+  background-color: #eaeaea;
+}
+
+.show-detail > aside {
+  float: left;
+  width: 270px;
+}
+
+.show-detail .show-info {
+  float: left;
+  width: 670px;
+  padding: 0 20px;
+}
+
+.show-title {
+  color: #333;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.show-stars .icon-stelletta.active {
+  color: rgb(255, 176, 0);
+}
+
+.show-stars .icon-stelletta {
+  color: #ccc;
+}
+
+.show-stars .icon-stelletta:hover {
+  color: rgb(255, 176, 0);
+}
+
+.show-toolbar {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px #FFF;
+  border-radius: 7px;
+}
+
+.show-toolbar li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 7px;
+}
