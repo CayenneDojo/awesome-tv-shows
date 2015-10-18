@@ -6,15 +6,12 @@
  * the elements.
  */
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 /**
  * Setting a specific width and margin: 0 auto for our container element
  * gives us a centered element which contains all our content.
  */
-
 .container {
   width: 960px;
   margin: 0 auto;
@@ -23,9 +20,9 @@
 /**
  * Some common rules for our header.
  */
-
 .site-header {
   margin: 20px 10px;
+  border-radius: 5px;
   padding: 0 20px;
   background-color: #eee;
   border: 1px solid #ccc;
@@ -36,8 +33,10 @@
   color: #333;
 }
 
-.site-header h1, .site-header h2, .site-header nav {
-  margin: 25px 0;
+.site-header h1,
+.site-header h2,
+.site-header nav {
+  margin: 20px 0;
 }
 
 .site-header h2 {
@@ -48,21 +47,29 @@
   font-style: italic;
 }
 
-button, a.button {
+button,
+a.button {
   display: inline-block;
+  font-size: 0.8rem;
   padding: 5px 10px;
-  border: 1px solid #BFBFBF;
-  color: #5D5D5D;
+  border: 1px solid #bfbfbf;
+  color: #5d5d5d;
   border-radius: 2px;
   text-shadow: 0 1px 0px #fff;
   text-decoration: none;
-  background: linear-gradient(180deg, #FFF, #CCC);
+  background: linear-gradient(180deg, #fff, #ccc);
 }
 
 button:hover, a.button:hover {
-  background: linear-gradient(180deg, #FFF, #aaa);
+  background: linear-gradient(180deg, #fff, #bbb);
 }
 
+/**
+ * shows-list contains floating elements (show-card), so we must
+ * declare overflow: auto (or hidden) in order to contain floats.
+ * Another technique would be to make this element also floating, but
+ * is not needed for our layout.
+ */
 .shows-list {
   overflow: auto;
 }
@@ -75,18 +82,25 @@ button:hover, a.button:hover {
   float: left;
   width: 460px;
   height: 278px;
-  margin: 0 10px 10px;
+  margin: 0 10px 20px;
   padding: 0 20px 20px 210px;
   overflow: hidden;
   border: 1px solid rgba(88, 88, 88, 0.1);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   font-size: 0.8rem;
+  border-radius: 5px;
+  background-color: #fafafa;
   transition: all 0.5s;
 }
 
 .show-card:hover {
   border: 1px solid rgba(88, 88, 88, 0.4);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.show-card .show-title {
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .show-card aside {
@@ -128,24 +142,24 @@ button:hover, a.button:hover {
 }
 
 .show-card .user-tools button {
-  font-size: 12px;
+  font-size: 11px;
   margin: 3px;
 }
 
 /**
  * Show detail
  */
-
 .show-detail {
   margin: 0 10px;
+  border: 1px solid transparent;
   overflow: auto;
   font-size: 0.85rem;
 }
 
-.show-detail > aside {
+.show-detail aside {
   float: left;
-  width: 220px;
-  padding: 0px 20px 0 0;
+  width: 200px;
+  padding-right: 10px;
 }
 
 .show-detail .show-poster {
@@ -153,14 +167,14 @@ button:hover, a.button:hover {
 }
 
 .show-detail .show-poster figcaption {
-  font-size: 12px;
   color: #666;
   margin: 10px 0;
 }
 
 .show-detail .show-info {
   float: left;
-  width: 720px;
+  width: 738px;
+  padding: 10px;
 }
 
 .show-detail .show-info h3 {
@@ -189,7 +203,7 @@ button:hover, a.button:hover {
   border: 1px solid #ccc;
   box-shadow: 0 1px #eee;
   background-color: #fafafa;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 .show-detail .show-toolbar li {
@@ -257,9 +271,11 @@ button:hover, a.button:hover {
  * Footer
  */
 .site-footer {
+  border-radius: 5px;
+  text-align: right;
   margin: 20px 10px;
   padding: 20px;
-  font-weight: bold;
+  font-size: 0.8rem;
   background-color: #eee;
   border: 1px solid #ccc;
 }
