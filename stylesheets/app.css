@@ -223,29 +223,29 @@ button:hover, a.button:hover {
 }
 
 .show-detail .show-toolbar a.favorite {
-  background-image: url('https://assets.tmdb.org/images/heart-icon-sprite.png');
+  background-image: url('../images/sprites/heart.png');
 }
 
 .show-detail .show-toolbar a.watchlist {
-  background-image: url('https://assets.tmdb.org/images/popcorn-icon-sprite.png');
+  background-image: url('../images/sprites/popcorn.png');
 }
 
 .show-detail .show-toolbar a.video {
-  background-image: url('https://assets.tmdb.org/images/video-play-icon-sprite.png');
+  background-image: url('../images/sprites/play.png');
 }
 
 .show-detail .show-toolbar a.changes {
   background-position-y: -17px;
-  background-image: url('https://assets.tmdb.org/images/change-icon-sprite.png');
+  background-image: url('../images/sprites/change.png');
 }
 
 .show-detail .show-toolbar a.share {
   background-position-y: -18px;
-  background-image: url('https://assets.tmdb.org/images/share-icon-sprite.png');
+  background-image: url('../images/sprites/share.png');
 }
 
 .show-detail .show-toolbar a.report {
-  background-image: url('https://assets.tmdb.org/images/important-sprite.png');
+  background-image: url('../images/sprites/important.png');
 }
 
 .show-detail .show-toolbar a:hover {
