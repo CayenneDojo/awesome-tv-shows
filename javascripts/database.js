@@ -81,7 +81,7 @@ var database = [
       "Drama"
     ],
     "averageStars": 4,
-    "popularity": 5,
+    "popularity": 10,
     "airingToday": false,
     "picture": "https://image.tmdb.org/t/p/w396/1yeVJox3rjo2jBKrrihIMj7uoS9.jpg",
     "createdBy": [
@@ -104,7 +104,7 @@ var database = [
       "Comedy"
     ],
     "averageStars": 3.5,
-    "popularity": 5,
+    "popularity": 4,
     "airingToday": true,
     "picture": "https://image.tmdb.org/t/p/w396/7buCWBTpiPrCF5Lt023dSC60rgS.jpg",
     "createdBy": [
