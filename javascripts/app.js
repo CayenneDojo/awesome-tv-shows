@@ -18,7 +18,11 @@ var renderList = function(items, listElement, listElementTemplate) {
   });
 }
 
+var showItems = function(whatToShow) {
+  console.log('will display shows!', whatToShow);
+}
+
 var listElement = document.querySelector('#list');
 var listItemTemplate = document.querySelector('#template-list-item').innerHTML;
 
-renderList(database, listElement, listItemTemplate);
+// renderList(database, listElement, listItemTemplate);
