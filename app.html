@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome TV Shows</title>
+    <meta name="description" content="Your first resource for spotting the best TV shows on the net!">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script id="template-list-item" type="text/template">
+      <article class="show-card">
+        <h2 class="show-title">_TITLE_</h2>
+        <div class="show-meta">
+          <span class="show-vote-average">_AVERAGE_STARS_/5</span>
+          <span class="show-release-date">_YEAR_</span>
+          <ul class="show-genres">
+            _GENRES_
+          </ul>
+        </div>
+        <p class="show-overview">
+          _OVERVIEW_
+        </p>
+        <a href="detail.html" class="button">Show details</a>
+        <aside>
+          <figure class="show-poster">
+            <img src="_PICTURE_" alt="" height="278">
+          </figure>
+          <div class="user-tools">
+            <button class="add-to-favorites">Add to Favorites</button>
+            <button class="add-to-watchlist">Add to Watchlist</button>
+          </div>
+        </aside>
+      </article>
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1><a href="index.html">Awesome TV Shows</a></h1>
+        <h2>Your first resource for spotting the best TV shows on the net!</h2>
+        <nav class="site-nav">
+          <a class="button" href="javascript:;">Most popular</a>
+          <a class="button" href="javascript:;">Top rated</a>
+          <a class="button" href="javascript:;">Airing today</a>
+        </nav>
+      </header>
+      <main class="site-main">
+        <section id="list" class="shows-list"></section>
+        <section id="detail" class="show-detail"></section>
+      </main>
+      <footer class="site-footer">
+        © 2015 Cayenne Dojo, all rights reserved
+      </footer>
+    </div>
+    <script src="javascripts/database.js"></script>
+    <script src="javascripts/app.js"></script>
+  </body>
+</html>
